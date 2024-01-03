@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', Arial, Helvetica, sans-serif;
+}
+
+
+ul{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.subtitulo{
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+
+
+.empresa .html{
+  background: #F1C98D;
+  color: #8F6524;
+}
+
+.empresa .css{
+  background: #B1BEEC;
+  color: #364A90;
+}
+
+.empresa .javaScript{
+  background: #F2EA9D;
+  color: #928302;
+}
+
+.empresa .react{
+  background: #A7D5FF;
+  color: #15548E;
+}
+
+.empresa .angularJs{
+  background: #ED9D9D;
+  color: #A31414;
+}
+
+.empresa .c{
+  background: #D18DF1;
+  color: #62098C;
+}
+
+.empresa .sql{
+  background: #B1BEEC;
+  color: #364A90;
+}
+
+@media (max-width: 800px){
+  .subtitulo{
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
